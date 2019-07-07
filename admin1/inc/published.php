@@ -4,8 +4,8 @@ require('../../config/config.php');
 require('../../config/db.php');
 
 include('profile.inc.php');
-if ( isset( $_SESSION['userId'] ) ) {
-    if($post['role'] = 'administrator'){
+// if ( isset( $_SESSION['userId'] ) ) {
+//     if($post['role'] = 'administrator'){
 
 
 if(isset($_POST['delete'])){
@@ -88,14 +88,15 @@ include("header_dashboard.php");
     <script src="../js/popper.min.js" type="text/javascript"></script>
     <script src="../js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../js/script.js" type="text/javascript"></script>
-    <?php }
-    }else{
-        echo '<h2>Sorry! You are not authorized to use this page.</h2>
-        <a href="../index.php" class="btn btn-primary add-del-btn">Home</a>';
-        // header('Location: inc/published.php');
-        // echo 'hello';
-        echo $_SESSION['role'];
-    }
+    <?php 
+    // }
+    // }else{
+    //     echo '<h2>Sorry! You are not authorized to use this page.</h2>
+    //     <a href="../index.php" class="btn btn-primary add-del-btn">Home</a>';
+    //     // header('Location: inc/published.php');
+    //     // echo 'hello';
+    //     echo $_SESSION['role'];
+    // }
 ?>
 </body>
 </html>

@@ -795,7 +795,6 @@ padding: 0;
   .search-bar #article-search{display: none !important}
   #featured{flex-direction: column !important; flex-wrap: nowrap;}
   .featured-card{width: 100%}
-  .featured-card{}
   /* #featured div div.border-0 {height:"23%" !important} */
   /* .showcase-picture img {
     display: block;
